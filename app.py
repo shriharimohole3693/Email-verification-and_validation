@@ -160,7 +160,7 @@ def show_home():
         st.markdown("<p class='description'>This tool helps you verify and validate email addresses with ease. Use our tool to ensure your email lists are clean and ready for your next marketing campaign.</p>", unsafe_allow_html=True)
     with col2:
         st.markdown("<div class='image'>", unsafe_allow_html=True)
-        st.image("D:\\whether\\email_validation\\image1.png", caption="Email Verification Tool", use_column_width=True)
+        st.image("image1.png", caption="Email Verification Tool", use_column_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -169,7 +169,7 @@ def show_home():
     col1, col2 = st.columns([1, 2])  # Adjust column width for centering
     with col1:
         st.markdown("<div class='image'>", unsafe_allow_html=True)
-        st.image("D:\\whether\\email_validation\\image2.jpg", caption="Upload Your File", use_column_width=True)
+        st.image("image2.jpg", caption="Upload Your File", use_column_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
     with col2:
         st.markdown("<h2 class='title'>Upload & Validate</h2>", unsafe_allow_html=True)
